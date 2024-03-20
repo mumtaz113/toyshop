@@ -13281,6 +13281,7 @@ footer .col-md-2 ul {
 }
 li.nav-item::before {
   left: -1px;
+  top: auto;
 }
 .bnr-info h4 {
   font-size: 12px;
