@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Shop</title>
+  </head>
+
+  <body>
+    
+    <!-- Header Start -->
+    <span class="screen-darken"></span>
+    <header>
+
+      <!-- Begin: Top Row -->
+      <div class="top-row">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+            <div class="toy-inf">
+            <p>Welcome you to ToyShop!</p>  
+            </div>  
+            </div>
+            <div class="col-md-6">
+             <div class="usr-blk">
+             <ul>
+             <li><a href="#">Sign In / Join</a></li> 
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USA $
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">EUR</a>
+                <a class="dropdown-item" href="#">USD</a>
+            </li>
+            <li><div class="js">
+  <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle">
+  <form action="" class="language-picker__form">
+    <label for="language-picker-select">Select your language</label>
+    <select name="language-picker-select" id="language-picker-select">
+      <option lang="de" value="deutsch">Deutsch</option>
+      <option lang="en" value="english" selected>English</option>
+      <option lang="fr" value="francais">Français</option>
+      <option lang="it" value="italiano">Italiano</option>
+    </select>
+  </form>
+</div></div></li>
+             </ul> 
+             </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END: Top Row -->
+
+      <!-- Begin: Bottom Row -->
+      <div class="bottom-row">
+       <div class="container-fluid">
+        <div class="row">
+         <div class="col-md-2">
+         <div class="logo">
+          <img src="./images/logo.png">
+         </div> 
+         </div>
+         <div class="col-md-6">
+         <div class="sr-frm">
+         <input type="text" placeholder="Enter Your Search Key">
+         <button>Search</button> 
+         </div> 
+         </div>
+         <div class="col-md-4">
+         <div class="icons">
+         <ul>
+         <li><a href="#"><ion-icon name="git-compare-outline"></ion-icon></a><span class="cp-count">0</span></li> 
+         <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a><span class="cp-count">0</span></li>
+         <li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a><span class="cp-count">0</span></li>
+         </ul> 
+         </div> 
+        </div>  
+         </div> 
+        </div>
+       </div>
+      </div>
+      <!-- END: Bottom Row -->  
+      <div class="last-row">
+        <button data-trigger="navbar_main" class="d-lg-none btn btn-warning" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-lg">
+          
+             <div class="offcanvas-header">  
+                <button class="btn-close float-end"><i class="fa fa-times" aria-hidden="true"></i></button>
+             </div>
+            
+             <div class="">
+            <div class="row">
+              <div class="col-md-3">
+           <div class="navbar-nav">     
+             <ul>
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">Baby Toys</a>
+                <a class="dropdown-item" href="#">Baby Toodler</a>
+                <a class="dropdown-item" href="#">OutDoor Play</a>
+                <a class="dropdown-item" href="#">Toodler Toys</a>
+                <a class="dropdown-item" href="#">PreSchool Building</a>
+                <a class="dropdown-item" href="#">Figures And Animals</a>
+                <a class="dropdown-item" href="#">Magnetic Sets</a>
+                <a class="dropdown-item" href="#">Mecanno</a>
+            </li>
+             </ul>    
+         </div>
+            </div>
+            <div class="col-md-9">
+              <ul class="navbar-nav">
+               
+                <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./shop.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">Shop Left SideBar</a>
+                    <a class="dropdown-item" href="#">Shop Right SideBar</a>
+                    <a class="dropdown-item" href="#">Shop Full Width</a>
+                    <a class="dropdown-item" href="#">Shop 100 Full Width</a>
+                    <a class="dropdown-item" href="#">Shop Both SideBars</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">Simple Product</a>
+                    <a class="dropdown-item" href="#">Variable Product</a>
+                    <a class="dropdown-item" href="#">Affilite Product</a>
+                    <a class="dropdown-item" href="#">Grouped Product</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">Test RTL</a>
+                    <a class="dropdown-item" href="#">My Account</a>
+                    <a class="dropdown-item" href="#">My Wishlist</a>
+                    <a class="dropdown-item" href="#">My Cart</a>
+                    <a class="dropdown-item" href="#">My CheckOut</a>
+                </li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+                  <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="./contactus.html" class="nav-link">ContactUs</a></li>
+             </ul>
+            </div>    
+            </div>  
+              
+             </div>
+          </nav> 
+      </div>
+    </header>
+    <!-- Header End -->
+    <section class="inrbanner-sec">    
+      <div class="bnr-img">
+      <img src="./images/inr-banner.jpg">
+      <div class="bnr-info">
+      <div class="container">
+      <h4>Shop</h4>
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li><a href="#">Shop</a></li>    
+      </ul>    
+      </div>    
+      </div>    
+      </div>    
+      </section>    
+<section class="brand-sec single-sec">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-5">
+<div class="row">
+<div class="col-md-6">
+<div class="slick2-main">
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>
+<div class="slick2-inr">
+<img src="images/product1.jpg"> 
+<img src="images/product8.jpg">
+<img src="images/product7.jpg"> 
+<img src="images/product3.jpg">
+</div>  
+</div>  
+</div>
+<div class="col-md-6">
+<div class="slick1-main">
+<div class="slick1-inr">
+<img src="images/product1.jpg">  
+</div>
+<div class="slick1-inr">
+<img src="images/product1.jpg">  
+</div>
+<div class="slick1-inr">
+  <img src="images/product1.jpg">  
+  </div>
+  <div class="slick1-inr">
+    <img src="images/product1.jpg">  
+    </div>
+    <div class="slick1-inr">
+      <img src="images/product1.jpg">  
+      </div>
+      <div class="slick1-inr">
+        <img src="images/product1.jpg">  
+        </div>  
+</div>  
+</div>  
+</div>  
+</div>
+<div class="col-md-7">
+<div class="single-blk">
+<h4>Juicy Couture Juicy Quilted Terry Track Jacket</h4>  
+<ul class="str-list">
+<li><i class="fa fa-star" aria-hidden="true"></i></li>
+<li><i class="fa fa-star" aria-hidden="true"></i></li>
+<li><i class="fa fa-star" aria-hidden="true"></i></li>
+<li><i class="fa fa-star" aria-hidden="true"></i></li>
+<li><i class="fa fa-star" aria-hidden="true"></i></li>  
+<li><p>(1 customer review)</p></li>
+</ul>
+<ul class="price">
+<li><h3 class="actual">$52.00</h3></li>  
+<li><h3><span>$40.00</span></h3></li>
+</ul>
+<div class="clock-container">
+  <div class="clock-col">
+    <div class="clock-days clock-timer">&nbsp;</div>
+    <div class="clock-label label-days">
+      Days
+    </div>
+  </div>
+  <div class="clock-col">
+    <div class="clock-hours clock-timer">&nbsp;</div>
+    <div class="clock-label label-hour">
+      Hours
+    </div>
+  </div>
+  <div class="clock-col">
+    <div class="clock-minutes clock-timer">&nbsp;</div>
+    <div class="clock-label label-minutes">
+      Minutes
+    </div>
+  </div>
+  <div class="clock-col">
+    <div class="clock-seconds clock-timer">&nbsp;</div>
+    <div class="clock-label label-seconds">
+      Seconds
+    </div>
+  </div> 
+</div>
+<ul class="descriptionn">
+  <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</li>
+  <li>Consetetur sadipscing elitr, sed diam nonumy eirmod</li>
+  <li>Suspendisse ultrices mauris diam</li>  
+  </ul> 
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+  <div class="qty-input">
+    <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+    <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+    <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+    <a href="#" class="btn">Add To Cart</a>
+  </div>
+  <div class="comp-blk">
+  <a href="#"><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a>
+  <a href="#"><i class="fa fa-compress" aria-hidden="true"></i>Compare</a>
+  </div>
+  <div class="sku">
+    <div class="sku-inr"><h4>Sku:</h4><p>WVN-13</p></div> 
+    <div class="sku-inr"><h4>Category:</h4><p>Studio Design</p></div> 
+    <div class="sku-inr"><h4>Tags:</h4>  <a href="#">Tag-02,Tag-08</a></div>  
+  </div>
+  <ul class="social">
+  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>  
+  </ul>
+</div>  
+</div>  
+</div>  
+</div>  
+</section>
+<section class="frequent-sec">
+<div class="container-fluid">
+<h2>Frequently Bought Together</h2>
+  <div class="ad-cart">
+  <img src="images/product1.jpg"> 
+  <img src="images/product2.jpg"> 
+  <div class="pr-price">
+  <p>Price for all:<span>$69.00</span></p>  
+  <a href="#" class="btn">Add To Cart</a>
+  </div>
+  </div> 
+  <div class="tab-sec">
+    <div class="tab-buttons">
+      <button class="tab-btn active" content-id="home">
+        Description
+      </button>
+      <button class="tab-btn" content-id="services">
+        Reviews(1)
+      </button>
+      <button class="tab-btn" content-id="contact">
+        About Brands
+      </button>
+      <button class="tab-btn" content-id="about">
+        Shipping & Delivry
+      </button>
+    </div>
+    <div class="tab-contents">
+      <div class="content show" id="home">
+        <div class="content-info">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.
+            Ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.</p>
+          <h4>Description Heading 01</h4>
+          <p>Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam erat mi, rutrum at sollicitudin rhoncus, ultricies posuere erat. Duis convallis, arcu nec aliquam consequat, purus felis vehicula felis, a dapibus enim lorem nec augue. Nunc facilisis sagittis ullamcorper.</p>
+          <ul class="descriptionn">
+          <li>Attribute Sets for quick product creation of different item types</li> 
+          <li>Approve, Edit and Delete Product Reviews and Tags</li>
+          <li>Media Manager with automatic image resizing and watermarking</li> 
+          <li>Search Results rewrites and redirects</li>
+          <li>Batch Import and Export of catalog</li>
+          <li>Batch Updates to products in admin panel</li>
+          </ul>
+          <p>Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam erat mi, rutrum at sollicitudin rhoncus, ultricies posuere erat. Duis convallis, arcu nec aliquam consequat, purus felis vehicula felis, a dapibus enim lorem nec augue. Nunc facilisis sagittis ullamcorper.</p>
+
+        </div>
+      </div>
+      <!-- <div class="content" id="services"> -->
+        <div class="content show" id="services">
+          <div class="content-info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.
+              Ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.</p>
+            <h4>Description Heading 01</h4>
+            <p>Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam erat mi, rutrum at sollicitudin rhoncus, ultricies posuere erat. Duis convallis, arcu nec aliquam consequat, purus felis vehicula felis, a dapibus enim lorem nec augue. Nunc facilisis sagittis ullamcorper.</p>
+            <ul class="descriptionn">
+            <li>Attribute Sets for quick product creation of different item types</li> 
+            <li>Approve, Edit and Delete Product Reviews and Tags</li>
+            <li>Media Manager with automatic image resizing and watermarking</li> 
+            <li>Search Results rewrites and redirects</li>
+            <li>Batch Import and Export of catalog</li>
+            <li>Batch Updates to products in admin panel</li>
+            </ul>
+            <p>Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam erat mi, rutrum at sollicitudin rhoncus, ultricies posuere erat. Duis convallis, arcu nec aliquam consequat, purus felis vehicula felis, a dapibus enim lorem nec augue. Nunc facilisis sagittis ullamcorper.</p>
+  
+          </div>
+        </div>
+      <div class="content" id="contact">
+       <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+       <h4>Morbi sed sapien velit tincidunt, libero non semper vulputate</h4>
+       <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+       <h4>Sed tincidunt, libero non semper vulputate, mauris</h4>
+       <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        
+      </div>
+      <div class="content" id="about">
+        <div class="content-info">
+          <p>Aliquam a tortor vel ligula auctor laoreet. Nullam dignissim, arcu a tristique dictum, felis diam convallis nunc, nec gravida tortor erat non lectus. Fusce odio erat, dapibus sit amet suscipit quis, ultricies nec lectus. Nulla a nunc posuere, facilisis metus ac, pulvinar urna. Curabitur iaculis mi imperdiet, pellentesque odio ac, vehicula lacus.</p>
+          <p>Aenean finibus nunc vitae lacus mollis tincidunt. In vitae rhoncus felis. Fusce convallis erat eget orci placerat, vitae porta odio faucibus. Mauris lorem felis, lobortis ac condimentum finibus, luctus eget ligula. Sed placerat dui nulla, in condimentum dui mollis pretium. Suspendisse semper turpis nec tempus gravida. Aenean a erat orci. Aliquam semper diam nec maximus cursus.</p>
+          <h4>General Shipping Policies</h4>
+          <p>Pellentesque ut purus ullamcorper, porttitor lectus vitae, vehicula nulla. Aenean vestibulum efficitur neque eu fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer placerat ultrices odio sed tempus. In scelerisque mattis neque, ac porttitor magna egestas eu. Nulla massa augue, placerat non egestas sit amet, faucibus ac est. Curabitur id urna lacus. Ut suscipit non nisl sit amet suscipit.</p>
+        </div>
+      </div>
+    </div>  
+  </div> 
+</div>  
+</section>
+<section class="related-sec">
+<div class="container-fluid">
+<h2>Related Products</h2>
+<div class="row">
+  <div class="col-md-3">
+    <div class="design-blk">
+    <div class="sale-badge">
+     <p><span>Sale!</span></p>  
+    </div>    
+    <div class="img-blk">
+    <img src="./images/related1.jpg">
+    <div class="search-blk">
+      <i class="fa fa-search" aria-hidden="true"></i>  
+      <div class="quick-view">
+       <p>Quick View</p>  
+      </div>
+    </div>
+    </div>
+    <div class="design-info">
+    <h5>STUDIO DESIGN</h5> 
+    <h3>New Balance Arishi Sport V1</h3> 
+    <ul class="star">
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>  
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <ul class="price">
+     <li class="actual">$52.00</li> 
+     <li><span>40.00</span></li>
+    </ul>
+    <div class="cart-blk blkkk">
+    <ul>
+    <li><a href="#" class="btn usr-btn">Add To Cart</a></li>  
+    <li><a href="#" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></a><a href="#"><ion-icon name="git-compare-outline" role="img" class="md hydrated"></ion-icon></a></li>
+    </ul>  
+    </div>
+    </div>  
+    </div>  
+    </div>
+    <div class="col-md-3">
+    <div class="design-blk">
+    <div class="sale-badge">
+     <p><span>Sale!</span></p>  
+    </div>    
+    <div class="img-blk">
+    <img src="./images/product2.jpg">
+    <div class="search-blk">
+      <i class="fa fa-search" aria-hidden="true"></i>  
+      <div class="quick-view">
+       <p>Quick View</p>  
+      </div>
+    </div>
+    </div>
+    <div class="design-info">
+    <h5>STUDIO DESIGN</h5> 
+    <h3>Checked Wool Blend Mini Skirt</h3> 
+    <ul class="star">
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>  
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <ul class="price">
+     <li class="actual">$52.00</li> 
+     <li><span>40.00</span></li>
+    </ul>
+    <div class="cart-blk blkkk">
+    <ul>
+    <li><a href="#" class="btn usr-btn">Add To Cart</a></li>  
+    <li><a href="#" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></a><a href="#"><ion-icon name="git-compare-outline" role="img" class="md hydrated"></ion-icon></a></li>
+    </ul>  
+    </div>
+    </div>  
+    </div>  
+    </div>
+    <div class="col-md-3">
+    <div class="design-blk">
+    <div class="sale-badge">
+     <p><span>Sale!</span></p>  
+    </div>    
+    <div class="img-blk">
+    <img src="./images/related3.jpg">
+    <div class="search-blk">
+      <i class="fa fa-search" aria-hidden="true"></i>  
+      <div class="quick-view">
+       <p>Quick View</p>  
+      </div>
+    </div>
+    </div>
+    <div class="design-info">
+    <h5>STUDIO DESIGN</h5> 
+    <h3>Juicy Couture Juicy Quilted Terry Track Jacket 2</h3> 
+    <ul class="star">
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>  
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <ul class="price">
+     <li class="actual">$52.00</li> 
+     <li><span>40.00</span></li>
+    </ul>
+    <div class="cart-blk blkkk">
+    <ul>
+    <li><a href="#" class="btn usr-btn">Add To Cart</a></li>  
+    <li><a href="#" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></a><a href="#"><ion-icon name="git-compare-outline" role="img" class="md hydrated"></ion-icon></a></li>
+    </ul>  
+    </div>
+    </div>  
+    </div>  
+    </div>
+    <div class="col-md-3">
+    <div class="design-blk">
+    <div class="sale-badge">
+     <p><span>Sale!</span></p>  
+    </div>    
+    <div class="img-blk">
+    <img src="./images/product3.jpg">
+    <div class="search-blk">
+      <i class="fa fa-search" aria-hidden="true"></i>  
+      <div class="quick-view">
+       <p>Quick View</p>  
+      </div>
+    </div>
+    </div>
+    <div class="design-info">
+    <h5>STUDIO DESIGN</h5> 
+    <h3>Brixton Patrol All Terrain Anorak Jacket</h3> 
+    <ul class="star">
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>  
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+    </ul>
+    <ul class="price">
+     <li class="actual">$52.00</li> 
+     <li><span>40.00</span></li>
+    </ul>
+    <div class="cart-blk blkkk">
+    <ul>
+    <li><a href="#" class="btn usr-btn">Add To Cart</a></li>  
+    <li><a href="#" class="btn"><i class="fa fa-heart" aria-hidden="true"></i></a><a href="#"><ion-icon name="git-compare-outline" role="img" class="md hydrated"></ion-icon></a></li>
+    </ul>  
+    </div>
+    </div>  
+    </div>  
+    </div>    
+</div>  
+</div>  
+</section>
+<footer>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-md-4">
+  <div class="lgo">
+  <img src="./images/ftrlogo.png">
+  <p>We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
+  <h6>Need Help</h6>
+  <a href="tel:800345678800123456" class="tel"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>(+800) 345 678, (+800) 123<br>456</a>
+  <ul class="social">
+  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
+  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
+  <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>  
+  </ul> 
+  </div>  
+  </div>
+  <div class="col-md-2">
+  <h3 class="head-1">Information</h3>
+  <ul>
+  <li><a href="#">Delivery</a></li>
+  <li><a href="#">AboutUs</a></li>
+  <li><a href="#">Secure Payment</a></li>
+  <li><a href="#">ContactUs</a></li>
+  <li><a href="#">SiteMap</a></li>
+  <li><a href="#">Stores</a></li> 
+  </ul> 
+  </div>
+  <div class="col-md-2">
+  <h3 class="head-2">Customer Links</h3>
+  <ul>
+  <li><a href="#">Legal Notice</a></li>
+  <li><a href="#">Prices Drop</a></li>
+  <li><a href="#">New Products</a></li>
+  <li><a href="#">Best Sales</a></li>
+  <li><a href="#">Login</a></li>
+  <li><a href="#">My Account</a></li> 
+  </ul> 
+  </div>  
+  <div class="col-md-4">
+  <h3 class="head-3">NewSletter</h3>
+  <p class="subscribe">You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</p>
+  <form>
+  <input type="email" placeholder="Your Email Adddress">
+  <button>SignUp</button> 
+  </form>
+  <div class="store">
+  <img src="./images/store1.png">
+  <img src="./images/store2.png"> 
+  </div>  
+  </div>
+  <div class="col-md-8">
+  <div class="cpy-blk">
+  <p>© Copyright 2024 ToyShop - All Rights Reserved - Powered by WooVina Theme.</p> 
+  <div class="pay-blk">
+  <img src="./images/pay.png">  
+  </div>  
+  </div>  
+  </div>  
+  </div>  
+  </div> 
+  </footer> 
+  <button id="scroll-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  
+      <script src="js/all.js"></script>
+      <script src="js/custom.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script>
+      const tabButtons = document.querySelectorAll('.tab-btn')
+
+tabButtons.forEach((tab) => {
+  tab.addEventListener('click', () => tabClicked(tab))
+})
+
+function tabClicked(tab) {
+  
+  tabButtons.forEach(tab => {
+    tab.classList.remove('active')
+  })
+  tab.classList.add('active')
+  
+  const contents = document.querySelectorAll('.content')
+  
+  contents.forEach((content) => {
+    content.classList.remove('show')
+  })
+  
+  const contentId = tab.getAttribute('content-id')
+  const contentSelected = document.getElementById(contentId)
+  
+  contentSelected.classList.add('show')
+  //console.log(contentId)
+}
+  
+      </script>
+     <script>
+     //Related gist & discussion https://gist.github.com/jakearchibald/cb03f15670817001b1157e62a076fe95
+// Related video https://www.youtube.com/watch?v=MCi6AZMkxcU
+
+window.onload = function () {
+  const controller = new AbortController();
+  // Set the date we're counting down to
+  const countDownDate = new Date("March 21, 2024 12:30:00").getTime();
+  const clockDaysElement = document.querySelector(".clock-days");
+  const clockHoursElement = document.querySelector(".clock-hours");
+  const clockMinutesElement = document.querySelector(".clock-minutes");
+  const clockSecondsElement = document.querySelector(".clock-seconds");
+  // Create an animation callback every second:
+  animationInterval(1000, controller.signal, (time) => {
+    // Get today's date and time
+    let now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    let distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the results
+    clockDaysElement.textContent = days;
+    clockHoursElement.textContent = hours;
+    clockMinutesElement.textContent = minutes;
+    clockSecondsElement.textContent = seconds;
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      controller.abort();
+      document.querySelector(".clock-container").innerHTML = "EXPIRED";
+    }
+  });
+};
+
+function animationInterval(ms, signal, callback) {
+  // Prefer currentTime, as it'll better sync animtions queued in the
+  // same frame, but if it isn't supported, performance.now() is fine.
+  const start = document.timeline
+    ? document.timeline.currentTime
+    : performance.now();
+
+  function frame(time) {
+    if (signal.aborted) return;
+    callback(time);
+    scheduleFrame(time);
+  }
+
+  function scheduleFrame(time) {
+    const elapsed = time - start;
+    const roundedElapsed = Math.round(elapsed / ms) * ms;
+    const targetNext = start + roundedElapsed + ms;
+    const delay = targetNext - performance.now();
+    setTimeout(() => requestAnimationFrame(frame), delay);
+  }
+
+  scheduleFrame(start);
+}
+ 
+     </script>
+    </body>
+  </html>
+  
