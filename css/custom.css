@@ -86,6 +86,9 @@ ul {
 div#navbarCollapse {
     flex-direction: row-reverse;
 }
+.nav-link {
+  position: relative;
+}
 .filt-clr .container {
   display: block;
   position: relative;
