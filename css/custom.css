@@ -13041,7 +13041,298 @@ section.call-sec {
 @media only screen and (min-width: 1366px) and (max-width: 1920px){}
 @media only screen and (min-width: 1200px) and (max-width: 1365px){}
 @media only screen and (min-width: 992px) and (max-width: 1199px){}
-@media only screen and (min-width: 768px) and (max-width: 991px){}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .last-row .row {
+    flex-direction: column;
+}
+
+li.nav-item::before {
+    width: 8%;
+    left: 0px;
+}
+
+a.nav-link {
+    width: 8%;
+}
+
+button.btn-close.float-end {
+    border: 1px solid #000;
+    background: #000;
+    width: 7%;
+}
+
+button.btn-close.float-end i {
+    color: #fff;
+}
+
+.last-row nav {
+    height: 35%;
+}
+
+.last-row a {
+    line-height: 24px;
+}
+
+.carousel-item img {
+    height: 350px;
+}
+
+.slide-info h1 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 15px;
+}
+
+.slide-info p {
+    width: 100%;
+    font-size: 14px;
+}
+
+button.d-lg-none.btn.btn-warning {
+    border: 1px solid #35b1e5;
+    background: #35b1e5;
+    width: 7%;
+    position: relative;
+    left: 15px;
+}
+
+.cp-inf h4 {
+    font-size: 14px;
+}
+
+.cp-inf p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.ft-bnr {
+    padding: 4px 0px;
+}
+
+.ft-bnr .container {
+    padding: 0;
+}
+
+.ft-bnr h2 {
+    font-size: 15px!Important;
+}
+.imggg img {
+  width: 65%!important;
+}
+
+.design-blk.blkk {
+  flex-direction: column;
+}
+
+.featuredm-blk {
+  height: 92vh;
+}
+
+.search-blk i {
+  font-size: 12px;
+}
+
+.blkk .search-blk i::after {
+  width: 28px;
+  height: 28px;
+  left: 42px;
+  top: 34px;
+}
+
+ul.price li {font-size: 9px;}
+
+.cart-blk {
+  display: none;
+}
+.blkk .design-info h5 {
+  font-size: 14px;
+}
+
+.blkk .design-info h3 {font-size: 11px;}
+.blkk {margin-bottom: 71px;}
+
+.arrival-sec .col-md-9 .row {
+    /* height: 177px; */
+}
+
+.arrival-sec .col-md-9 .design-blk {
+    height: 240px;
+}
+
+.design-info h5 {
+    font-size: 8px;
+}
+
+.design-info h3 {
+    font-size: 11px;
+}
+
+.quick-view {
+    width: 100%;
+}
+
+.search-blk i::after {
+    top: 86px;
+    left: 18px;
+    width: 30px;
+    height: 30px;
+}
+
+.search-blk i {
+    bottom: -129px;
+    left: 2px;
+    font-size: 9px;
+}
+
+.design-info h3 {
+    font-size: 9px;
+    line-height: 13px;
+} 
+.featuredm-blk .design-blk::before {
+    bottom: -65px;
+    left: 0;
+    width: 100%;
+}
+.ty-info h2 {
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.ct-info h3 {
+  font-size: 12px;
+}
+
+.ct-info ul li a {
+  font-size: 10px;
+  line-height: 0;
+}
+
+.read-more {
+  width: 66%;
+  font-size: 13px;
+}
+
+.read-more::after {
+  width: 14px;
+  height: 14px;
+  top: 20px;
+  left: 81px;
+}
+
+.read-more::before {
+  right: 16px;
+}
+.ct-main {
+  height: 344px;
+}
+.lgo p {
+  padding-right: 0;
+}
+
+.subscribe {
+  padding-right: 0;
+}
+
+.lgo .tel {
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.lgo .tel i {
+  padding-right: 12px;
+}
+
+footer form input {
+  width: 100%;
+  font-size: 12px;
+}
+
+footer form button {
+  width: 34%;
+  right: 0;
+}
+
+.store img {
+  margin-bottom: 10px;
+}
+
+.cpy-blk {
+  flex-direction: column;
+  padding-top: 14px;
+}
+
+.cpy-blk p {
+  font-size: 13px;
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+#scroll-to-top {
+  right: 75px;
+}
+h4.filter::before {
+  width: 149px;
+}
+
+h4.filter::after {
+  width: 37px;
+}
+
+.single-blk h4 {
+  font-size: 17px;
+}
+
+section.related-sec{
+  padding: 50px 0px!important;
+}
+.call-blk p {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.call-blk h3 {
+  font-size: 16px;
+}
+
+.cl-blk h3 {
+  font-size: 30px;
+}
+
+.contact-blk h3 {
+  font-size: 24px;
+}
+
+.contact-blk p {
+  font-size: 12px;
+  line-height: 16px;
+  padding-bottom: 18px;
+}
+
+.txt-blk input, textarea {
+  width: 100%!important;
+  font-size: 10px;
+}
+
+.contact-blk {
+  padding: 34px 15px;
+}
+
+.usr-btn button {
+  width: 100%!important;
+}
+
+.txt-blk textarea {
+  height: 120px;
+}
+
+.txt-blk label {
+  font-size: 12px;
+}
+
+.map iframe {
+  height: 619px;
+} 
+}
 @media only screen and (min-width: 520px) and (max-width: 767px){}
 @media only screen and (min-width: 300px) and (max-width: 519px){
 .usr-blk {
@@ -13410,4 +13701,14 @@ section.related-sec {
   top: 148px!important;
   left: 139px!important;
 }
+.ty-info h2 {
+  font-size: 26px;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.ty-info a {
+  font-size: 13px;
+}
+
 }
